@@ -1,0 +1,157 @@
+.mainmemberscon {
+    width: 100%;
+    height: max-content;
+    padding: 30px 120px 100px 120px;
+    
+}
+.teamheading {
+    font-size: 1.1em;
+    font-weight: 800;
+}
+.mm {
+    margin-bottom: 15px;
+}
+.leaders {
+    margin: 0 auto;
+
+    width: 80%;
+    
+    padding: 30px 80px;
+    background-color: #F3F5FA;
+}
+.leadercon {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.namemm {
+    font-weight: 700;
+    font-size: 0.99em;
+}
+.postmm {
+    font-size: 0.82em;
+    text-align: right;
+}
+.electronicsteamicn {
+    width: 70px;
+    height: 70px;
+    background-color: black;
+   margin: 0 auto;
+   border-radius: 50%;
+   background-image: url(../../../../public/assets/electronicsicon.png);
+   background-size: cover;
+   background-position: center;
+   margin-bottom: 15px;
+
+}
+#margin {
+    margin-bottom: 30px;
+}
+.leadericon {
+    
+    width: 70px;
+    height: 70px;
+    background-color: black;
+   margin: 0 auto;
+   border-radius: 50%;
+   background-image: url(../../../../public/assets/leadericon.jpg);
+   background-size: cover;
+   background-position: center;
+   margin-bottom: 15px;
+}
+.restmembers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+
+}
+.halfteamcon {
+    background-color: #F3F5FA;
+    width: 40%;
+    height: max-content;
+    z-index: 1;
+    padding: 15px 15px 30px 15px;
+   
+}
+.tchnclicn {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+   margin: 0 auto;
+   border-radius: 50%;
+   background-image: url(../../../../public/assets/tchnicalicon.jpg);
+   background-size: cover;
+   background-position: center;
+
+}
+.managemnticon {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+   margin: 0 auto;
+   border-radius: 50%;
+   background-image: url(../../../../public/assets/managementicon.png);
+   background-size: cover;
+   background-position: center;
+
+}
+.hh {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.coon {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.memcardcon {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+@media only screen  and (max-width:600px){
+    .mainmemberscon {
+        padding: 30px 10px;
+    }
+    .teamheading {
+        font-size: 1em;
+        font-weight: 700;
+    }
+    .mm {
+        margin-bottom: 8px;
+    }
+    .leaders {
+        padding: 30px 10px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 30px;
+        background-color:#F3F5FA ;
+    }
+    .restmembers {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .halfteamcon {
+        width: 100%;
+        
+    }
+    
+}
